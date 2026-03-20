@@ -29,7 +29,7 @@ public class NotificationService {
     @Autowired
     private ExpenseService expenseService;
 
-    @Value("${vaultIQ.fronted.url}")
+    @Value("${vaultiq.frontend.url}")
     private String frontedUrl;
 
 //    @Scheduled(cron = "0 * * * * *" , zone = "IST")
